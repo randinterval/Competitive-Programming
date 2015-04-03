@@ -30,8 +30,42 @@ ifstream fin("data.in");
 #define cin fin
 #endif
 
+void checkClassStatus(int min,vector <int> & arrival)
+{
+    int pcount=0;
+    for(unsigned i=0;i<arrival.size();i++)
+    {
+        if(arrival[i]<=0)
+            pcount++;
+    }
+    if(pcount>=min)
+    {
+        cout<<"NO"<<endl;
+    }
+    else
+    {
+        cout<<"YES"<<endl;
+    }
+}
+
 int main(int argc,char *argv[])
 {
-    
+    int cases;
+    int n,k;
+    int temp;
+    vector <int> arrival;
+    cin>>cases;
+    while(cases-->0)
+    {
+        cin>>n;
+        cin>>k;
+        while(n-->0)
+        {
+            cin>>temp;
+            arrival.push_back(temp);
+        }
+        checkClassStatus(k,arrival);
+        arrival.clear();
+    }
     return 0;
 }
