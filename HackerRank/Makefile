@@ -19,3 +19,7 @@ clean:
 	g++ -std=gnu++11 -O2 -g -Wall -Werror -DSAAD 7.cpp
 8:
 	g++ -std=gnu++11 -O2 -g -Wall -Werror -DSAAD 8.cpp
+9:
+	g++ -std=gnu++11 -O2 -g -Wall -Werror -DSAAD 9.cpp
+10:
+	g++ -std=gnu++11 -O2 -g -Wall -Werror -DSAAD 10.cpp
