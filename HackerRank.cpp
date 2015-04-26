@@ -3,7 +3,7 @@
 // Problem URL: 
 // Author : Saad Ahmed
 // Online Judge: 
-// Online Judge Username: 
+// Online Judge Username: randinterval
 // Problem Type : 
 //============================================================================
 #include <iostream>
@@ -32,7 +32,5 @@ ifstream fin("data.in");
 
 int main(int argc,char *argv[])
 {
-    
-    cout<<n;
     return 0;
 }

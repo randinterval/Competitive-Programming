@@ -23,3 +23,5 @@ clean:
 	g++ -std=gnu++11 -O2 -g -Wall -Werror -DSAAD 9.cpp
 10:
 	g++ -std=gnu++11 -O2 -g -Wall -Werror -DSAAD 10.cpp
+7:
+	g++ -std=gnu++11 -O2 -g -Wall -Werror -DSAAD 7.cpp

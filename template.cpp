@@ -3,7 +3,7 @@
 // Problem URL: 
 // Author : Saad Ahmed
 // Online Judge: 
-// Online Judge Username: 
+// Online Judge Username: randinterval
 // Problem Type : 
 //============================================================================
 #include <iostream>
